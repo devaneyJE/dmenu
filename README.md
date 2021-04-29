@@ -4,7 +4,7 @@ This repo contains my personal configuration for `dmenu`, including patches and 
 ### Patches:
 Diffs from the patch versions used in this utility are included in the [patches](../tree/main/patches) directory. The following patches are currently in use:
 
-- [border](https://tools.suckless.org/dmenu/): Provides border around dmenu matching primary selection color.
+- [border](https://tools.suckless.org/dmenu/patches/border/): Provides border around dmenu matching primary selection color.
 - [caseinsensitive](https://tools.suckless.org/dmenu/patches/case-insensitive/): Case insensitivity becomes default behavior, replacing insensitive flag with `-s` flag for enabling sensitive matching.
 - [fuzzymatch](https://tools.suckless.org/dmenu/patches/fuzzymatch/): Matches non-consecutive portions of provided strings in search.
 - [grid](https://tools.suckless.org/dmenu/patches/grid/): Provides option to display menu in multiple rows and columns.
