@@ -1,0 +1,33 @@
+#! /usr/bin/env bash
+#
+# dmenu script for selecting dmenu scripts
+
+# current options (credit to DT, GitLab: https://www.gitlab.com/dwt1/dmscripts)
+declare -a options=(
+"conf"
+"man"
+"kill"
+"search"
+)
+
+# listing choices in dmenu
+choice=$(printf '%s\n' "${options[@]}" | dmenu -F -h 34 -p 'Scripts:' "$@")
+
+# action on choice
+case "$choice" in
+    'conf')
+        dmconf
+    ;;
+    'man')
+        dman
+    ;;
+    'kill')
+        dmkill
+    ;;
+    'search')
+        dmsearch
+    ;;
+    *)
+        exit 0
+    ;;
+esac
