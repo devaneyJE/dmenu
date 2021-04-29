@@ -21,4 +21,4 @@ static const char colors*[SchemeLast][2] = {
 ```
 
 ### Contributions:
-Credit for the primary tool is listed in the original, included [license](../blob/main/LICENSE). Authors of the various scripts in the [dmscripts](../tree/main/dmscripts) directory are credited within each file. Scripts included may reflect either code of original author(s), or modifications I made to the script.
+Credit for the primary tool is listed in the original, included [license](/blob/main/LICENSE). Authors of the various scripts in the [dmscripts](/tree/main/dmscripts) directory are credited within each file. Scripts included may reflect either code of original author(s), or modifications I made to the script.
