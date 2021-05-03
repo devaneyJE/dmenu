@@ -8,17 +8,13 @@
 # Contributors: Derek Taylor
 
 # Defining the text editor to use.
-# DMENUEDITOR="st -e vim"
- DMEDITOR="kitty -e nvim"
-# DMEDITOR="emacsclient -c -a emacs"
+DMEDITOR="kitty -e nvim"
 
 # An array of options to choose.
-# You can edit this list to add/remove config files.
 declare -A options
-#options[alacritty]="$HOME/.config/alacritty/alacritty.yml"
+options[alacritty]="$HOME/.config/alacritty/alacritty.yml"
 options[aliasrc]="$HOME/.config/shell/aliasrc"
 options[bashrc]="$HOME/.config/bash/.bashrc"
-#options[broot]="$HOME/.config/broot/conf.toml"
 options[bspwm]="$HOME/.config/bspwm/bspwmrc"
 options[dmenu]="$HOME/.config/dmenu"
 options[doom emacs]="$HOME/.doom.d"
@@ -26,9 +22,10 @@ options[fehbg]="$HOME/.config/feh/.fehbg"
 options[fish]="$HOME/.config/fish/config.fish"
 options[kitty]="$HOME/.config/kitty/kitty.conf"
 options[nvim]="$HOME/.config/nvim/init.vim"
+options[pfetch]="$HOME/.config/shell/pfetch.conf"
 options[picom]="$HOME/.config/picom/picom.conf"
 options[polybar]="$HOME/.config/polybar"
-options[scripts]="$HOME/.scripts"
+options[scripts]="$HOME/.config/dmenu/dmscripts"
 options[spicetify]="$HOME/.config/spicetify/config.ini"
 options[sxhkd]="$HOME/.config/sxhkd/sxhkdrc"
 options[vimrc]="$HOME/.config/vim/.vimrc"
